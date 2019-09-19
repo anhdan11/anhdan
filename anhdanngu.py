@@ -11,13 +11,13 @@ from multiprocessing.pool import ThreadPool
 try:
 	import mechanize
 except ImportError:
-	os.system("pip2 install anhdan")
+	os.system("pip2 install mechanize")
 try:
 	import requests
 except ImportError:
-	os.system("pip2 install anhdan")
+	os.system("pip2 install requests")
 from requests.exceptions import ConnectionError
-from anhdann import Browser
+from mechanize import Browser
 
 #-Setting-#
 ########
