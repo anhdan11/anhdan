@@ -11,13 +11,13 @@ from multiprocessing.pool import ThreadPool
 try:
 	import mechanize
 except ImportError:
-	os.system("pip2 install mechanize")
+	os.system("pip2 install anhdan")
 try:
 	import requests
 except ImportError:
-	os.system("pip2 install requests")
+	os.system("pip2 install anhdan")
 from requests.exceptions import ConnectionError
-from mechanize import Browser
+from anhdann import Browser
 
 #-Setting-#
 ########
@@ -61,7 +61,7 @@ def jalan(z):
 logo ="""
 
 \033[1;96m   Tran Le Anh Dan             
-\033[1;93m fb.com/anhdan11
+\033[1;93m fb.com anhdan11
 """
 
 # titik #
